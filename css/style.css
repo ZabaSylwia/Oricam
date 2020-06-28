@@ -1,0 +1,39 @@
+/*slider*/
+.slider{
+    width: 1250px;
+    height: 800px;
+    overflow: hidden;
+    }
+    .sliders{
+        width: calc(1250px * 3);
+        margin: 100px auto;
+        animation: glisse 10s infinite;
+    }
+    .slide{
+        float: left;
+        
+    }
+
+    @keyframes glisse{
+        0% {
+            transform: translateX(0);
+        }
+        10% {
+            transform: translateX(0);
+        }
+        33% {
+            transform: translateX(-1250px);
+        }
+        43% {
+            transform: translateX(-1250px);
+        }
+        66% {
+            transform: translateX(-2500px);
+        }
+        66% {
+            transform: translateX(-2500px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
